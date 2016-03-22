@@ -1,0 +1,4 @@
+api_quotes:
+    type: rest
+    resource: "@AppBundle/Controller/QuotesController.php"
+    name_prefix:  api_quotes_

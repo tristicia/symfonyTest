@@ -1,0 +1,13 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+api:
+    type:     rest
+    prefix:   /api
+    resource: "@AppBundle/Resources/config/api-routing.yml"
+    type:     annotation
+
+map:
+    path:      /map
+    defaults:  { _controller: AppBundle:Map:index }
