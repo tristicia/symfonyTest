@@ -6,7 +6,7 @@ use Composer\Autoload\ClassLoader;
 /**
  * @var ClassLoader $loader
  */
-$loader = require '/home/vagrant/api/vendor/autoload.php';
+$loader = require __DIR__.'/../vendor/autoload.php';
 
 AnnotationRegistry::registerLoader([$loader, 'loadClass']);
 

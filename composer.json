@@ -52,10 +52,7 @@
     "config": {
         "platform": {
             "php": "5.5.9"
-        },
-            "bin-dir": "bin",
-            "vendor-dir": "/home/vagrant/api/vendor"
-        
+        }
     },
     "extra": {
         "symfony-app-dir": "app",
